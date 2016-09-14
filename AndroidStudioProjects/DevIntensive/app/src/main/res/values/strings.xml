@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Тимофеев Андрей</string>
+    <string name="cellphone">Мобильный телефон</string>
+    <string name="email">Электронная почта</string>
+    <string name="vk">Профиль в VK</string>
+    <string name="github">Репозитории</string>
+    <string name="myself">О себе</string>
+    <string name="about_me">Учусь писать гребанные приложения, которые будут доступны для милионнов пользоватей и позволяющие получать огромные потоки информации.</string>
+
+</resources>

@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/grey"
+            android:orientation="horizontal"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_medium_32"
+                android:layout_marginBottom="@dimen/spacing_medium_32"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/spacing_very_small_16"
+                    android:layout_marginRight="@dimen/spacing_small_24"
+                    android:gravity="center"
+                    android:orientation="vertical">
+                    <android.support.v7.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5"
+                        android:textSize="@dimen/size_text_normal_24"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="4dp"/>
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Рейтинг"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="6dp"/>
+
+                </LinearLayout>
+                <View style="@style/vertical_line"/>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="@dimen/spacing_very_small_16"
+                    android:layout_marginRight="@dimen/spacing_very_small_16">
+                    <android.support.v7.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="25000"
+                        android:textSize="@dimen/size_text_normal_24"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="4dp"/>
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cтрок кода"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="6dp"/>
+
+                </LinearLayout>
+                <View style="@style/vertical_line"/>
+                <LinearLayout
+                    android:layout_width="@dimen/size_large_72"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/spacing_very_small_16"
+                    android:layout_marginRight="@dimen/spacing_very_small_16"
+                    android:gravity="center"
+                    android:orientation="vertical">
+                    <android.support.v7.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5"
+                        android:textSize="@dimen/size_text_normal_24"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="4dp"/>
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Проектов"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="6dp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_very_small_8"
+        android:layout_marginBottom="@dimen/spacing_very_small_8"
+        android:orientation="horizontal">
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/call"
+            style="@style/icon.left"
+            android:src="@drawable/ic_call_white_24dp"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="@dimen/size_large_72"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/spacing_medium_32"
+            android:layout_marginRight="@dimen/spacing_very_small_16">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/cellphone"
+                    android:text="+7 (923) 299 67 68"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/grey"
+                    android:enabled="false"
+                    android:focusable="false"
+                    android:inputType="phone"/>
+
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+        <android.support.v7.widget.AppCompatImageView
+            style="@style/icon.right"
+            android:src="@drawable/ic_phone_in_talk_white_24dp"/>
+
+    </LinearLayout>
+
+    <View
+        style="@style/horizontal_line"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_very_small_8"
+        android:layout_marginBottom="@dimen/spacing_very_small_8"
+        android:orientation="horizontal">
+        <android.support.v7.widget.AppCompatImageView
+            style="@style/icon.left"
+            android:src="@drawable/ic_mail_black_24dp"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="@dimen/size_large_72"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/spacing_medium_32"
+            android:layout_marginRight="@dimen/spacing_very_small_16">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/email"
+                    android:text="atimofeev1992@gmail.com"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/grey"
+                    android:enabled="false"
+                    android:focusableInTouchMode="false"
+                    android:focusable="false"
+                    android:singleLine="true"
+                    android:inputType="textEmailAddress"/>
+
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+        <android.support.v7.widget.AppCompatImageView
+            style="@style/icon.right"
+            android:src="@drawable/ic_send_black_24dp"/>
+
+    </LinearLayout>
+
+    <View
+        style="@style/horizontal_line"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_very_small_8"
+        android:layout_marginBottom="@dimen/spacing_very_small_8"
+        android:orientation="horizontal">
+        <android.support.v7.widget.AppCompatImageView
+            style="@style/icon.left"
+            android:src="@drawable/ic_android_black_24dp"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="@dimen/size_large_72"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/spacing_medium_32"
+            android:layout_marginRight="@dimen/spacing_very_small_16">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/vk"
+                    android:text="vk.com/andrtimofeev"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/grey"
+                    android:enabled="false"
+                    android:focusableInTouchMode="false"
+                    android:focusable="false"/>
+
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+        <android.support.v7.widget.AppCompatImageView
+            style="@style/icon.right"
+            android:src="@drawable/ic_visibility_black_24dp"/>
+
+    </LinearLayout>
+
+    <View
+        style="@style/horizontal_line"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_very_small_8"
+        android:layout_marginBottom="@dimen/spacing_very_small_8"
+        android:orientation="horizontal">
+        <android.support.v7.widget.AppCompatImageView
+            style="@style/icon.left"
+            android:src="@drawable/ic_android_black_24dp"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="@dimen/size_large_72"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/spacing_medium_32"
+            android:layout_marginRight="@dimen/spacing_very_small_16">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/github"
+                    android:text="github.com/javabuddy/pointofplace/"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/grey"
+                    android:enabled="false"
+                    android:focusableInTouchMode="false"
+                    android:focusable="false"
+                    android:singleLine="true"/>
+
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+        <android.support.v7.widget.AppCompatImageView
+            style="@style/icon.right"
+            android:src="@drawable/ic_visibility_black_24dp"/>
+
+    </LinearLayout>
+
+    <View
+        style="@style/horizontal_line"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_very_small_8"
+        android:layout_marginBottom="@dimen/spacing_very_small_8"
+        android:orientation="horizontal">
+        <android.support.v7.widget.AppCompatImageView
+            style="@style/icon.left"
+            android:src="@drawable/ic_account_circle_black_24dp"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/spacing_medium_32"
+            android:layout_marginRight="@dimen/spacing_very_small_16">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/myself"
+                    android:text="@string/about_me"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/grey"
+                    android:enabled="false"
+                    android:focusableInTouchMode="false"
+                    android:focusable="false"
+                    android:elegantTextHeight="false"
+                    android:linksClickable="false"
+                    />
+
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
